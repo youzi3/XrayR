@@ -15,7 +15,7 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@bitbucket.org:misakano7545/xrayr.git
+            git@bitbucket.org:biaozhun/xrayr.git
           ssh_private_key:
             ${{ secrets.SSH_PRIVATEKEY }}
   to_gitlab:
@@ -27,6 +27,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@gitlab.com:misaka-blog/xrayr.git
+            git@gitlab.com:biaozhun/xrayr.git
           ssh_private_key:
             ${{ secrets.SSH_PRIVATEKEY }}
